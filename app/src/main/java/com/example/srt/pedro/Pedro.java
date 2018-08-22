@@ -38,7 +38,7 @@ public class Pedro extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "i love you <3 ", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "comprobando que funciona el control de versiones ", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
